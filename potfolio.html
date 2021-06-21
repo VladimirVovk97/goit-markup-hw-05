@@ -16,42 +16,49 @@
 </head>
 
 <body>
-    <!-- Шапка страницы -->
+    <!-- Header -->
     <header class="header">
-        <div class="container">
-                <nav class="main-nav">
-                    <a href="./index.html" class="logo">
-                        <span class="web-logo">Web</span>
-                        <span class="studio-logo">Studio</span>
-                    </a>
-                    <ul class="site-nav">
-                        <li class="item"><a href="./index.html" class="link" >Cтудия</a></li>
-                        <li class="item"><a href="./potfolio.html" class="link-active">Портфолио</a></li>
-                        <li class="item"><a href="#contact" class="link" >Контакты</a></li>
-                    </ul>
-                </nav>
-                <ul class="auth-nav list">
-                    <li class="item">
-                        <a href="mailto:info.devstudio.com" class="link">
-                            <svg class="item-icon" width="16" height="12">
-                                <use href="./images/icons.svg#icon-envelope"></use>
-                            </svg>
-                            info@devstudio.com</a></li>
-                            <li class="item">
-                          <a href="tel:+380961111111" class="link">
-                            <svg class="item-icon" width="10" height="16">
-                            <use href="./images/icons.svg#icon-smartphone"></use>
-                         </svg>
-                         +38 096 111 11 11
-                         </a>
-                         </li>
+        <div class="container header-section">
+            <!-- Название/логотип компании -->
+            <a href="./index.html" class="main-logo"><span class="first-part-of-main-logo">Web</span>Studio</a>
+            <!-- Навигация по сайту -->
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-list-parts">
+                        <a href="./index.html" class="nav-links">Студия</a>
+                    </li>
+                    <li class="nav-list-parts">
+                        <a href="./potfolio.html" class="nav-links on-this-page">Портфолио</a>
+                    </li>
+                    <li class="nav-list-parts">
+                        <a href="" class="nav-links">Контакты</a>
+                    </li>
                 </ul>
-            </div>
+            </nav>
+            <!-- Контакты -->
+            <ul class="contact-list">
+                <li class="contact-list-parts">
+                    <a href="malito:info@devstudio.com" class="contact-links">
+                        <svg class="contact-links-icons" width="16" height="12">
+                            <use href="./images/icons.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="contact-list-parts">
+                    <a href="tel:+380961111111" class="contact-links">
+                        <svg class="contact-links-icons" width="10" height="16">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
+                </li>
+            </ul>
         </div>
     </header>
     <main>
         <!-- Секция 1-->
-            <section class="section">   
+        <section class="section">
             <div class="container all-projects-section">
                 <h1 class="hidden">Секция 1</h1>
                 <ul class="select">
@@ -59,7 +66,7 @@
                         <button type="button" class="link filter-button">Все</button>
                     </li>
                     <li class="select-button">
-                        <button type="button" class="link filter-button">Веб-Сайты</button>
+                        <button type="button" class="link filter-button">Веб-cайты</button>
                     </li>
                     <li class="select-button">
                         <button type="button" class="link filter-button">Приложения</button>
@@ -153,65 +160,66 @@
                         </a>
                     </li>
                 </ul>
-                </div>
-                </div>
-                </section>
+            </div>
+            </div>
+        </section>
     </main>
-<footer class="footer">
-    <div class="container footer-parts">
-        <div class="addresses-footer-part">
-            <a href="" class="main-logo-in-footer"><span class="first-part-of-main-logo">Web</span><span
-                    class="second-part-of-main-logo">Studio</span></a>
-            <address>
-                <ul class="footer-addresses-list">
-                    <li class="footer-addresses-parts">
-                        <a href="" class="footer-contact-links"><span class="address-color">г. Киев, пр-т Леси Украинки,
-                                26</span></a>
+    <footer class="footer">
+        <div class="container footer-parts">
+            <div class="addresses-footer-part">
+                <a href="" class="main-logo-in-footer"><span class="first-part-of-main-logo">Web</span><span
+                        class="second-part-of-main-logo">Studio</span></a>
+                <address>
+                    <ul class="footer-addresses-list">
+                        <li class="footer-addresses-parts">
+                            <a href="" class="footer-contact-links"><span class="address-color">г. Киев, пр-т Леси
+                                    Украинки,
+                                    26</span></a>
+                        </li>
+                        <li class="footer-addresses-parts">
+                            <a href="malito:info@devstudio.com" class="footer-contact-links">info@devstudio.com</a>
+                        </li>
+                        <li class="footer-addresses-parts">
+                            <a href="tel:+380961111111" class="footer-contact-links">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="subscribe-footer-part">
+                <h2 class="subscribe-header">Присоединяйтесь</h2>
+                <ul class="socialmedia-list-footer">
+                    <li class="socialmedia-parts-footer">
+                        <a href="#" class="socialmedia-links-footer">
+                            <svg class="socialmedia-icons-footer">
+                                <use href="./images/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="footer-addresses-parts">
-                        <a href="malito:info@devstudio.com" class="footer-contact-links">info@devstudio.com</a>
+                    <li class="socialmedia-parts-footer">
+                        <a href="#" class="socialmedia-links-footer">
+                            <svg class="socialmedia-icons-footer">
+                                <use href="./images/icons.svg#twitter"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="footer-addresses-parts">
-                        <a href="tel:+380961111111" class="footer-contact-links">+38 096 111 11 11</a>
+                    <li class="socialmedia-parts-footer">
+                        <a href="#" class="socialmedia-links-footer">
+                            <svg class="socialmedia-icons-footer">
+                                <use href="./images/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socialmedia-parts-footer">
+                        <a href="#" class="socialmedia-links-footer">
+                            <svg class="socialmedia-icons-footer">
+                                <use href="./images/icons.svg#linkedin"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
-            </address>
+            </div>
         </div>
-        <div class="subscribe-footer-part">
-            <h2 class="subscribe-header">Присоединяйтесь</h2>
-            <ul class="socialmedia-list-footer">
-                <li class="socialmedia-parts-footer">
-                    <a href="#" class="socialmedia-links-footer">
-                        <svg class="socialmedia-icons-footer">
-                            <use href="./images/icons.svg#instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="socialmedia-parts-footer">
-                    <a href="#" class="socialmedia-links-footer">
-                        <svg class="socialmedia-icons-footer">
-                            <use href="./images/icons.svg#twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="socialmedia-parts-footer">
-                    <a href="#" class="socialmedia-links-footer">
-                        <svg class="socialmedia-icons-footer">
-                            <use href="./images/icons.svg#facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="socialmedia-parts-footer">
-                    <a href="#" class="socialmedia-links-footer">
-                        <svg class="socialmedia-icons-footer">
-                            <use href="./images/icons.svg#linkedin"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</footer>
+    </footer>
 </body>
 
 </html>
