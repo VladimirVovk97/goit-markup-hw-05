@@ -738,6 +738,16 @@ footer {
 /* footer */
 
 /* портфолио  */
+.all-projects {
+  background-color: var(--primary-white-color);
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.all-projects-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .project-list {
   display: flex;
