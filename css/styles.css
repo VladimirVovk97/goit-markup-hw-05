@@ -549,6 +549,9 @@ p {
   height: 44px;
   border-radius: 50%;
   color: #afb1b8;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-spr:hover,
 .button-spr:focus {
@@ -603,6 +606,9 @@ p {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  transition-property: color, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-list-link:hover,
 .clients-list-link:focus {
@@ -715,6 +721,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socialmedia-links-footer:hover,
